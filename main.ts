@@ -1,7 +1,6 @@
 // main.ts
 import { App, Plugin, PluginSettingTab, Setting } from 'obsidian';
 import { getInstagramData } from './src/instagram';
-import { InstagramPost } from './src/types';
 
 interface InstagramViewerSettings {
     sessionId: string;
@@ -33,7 +32,6 @@ export default class InstagramViewer extends Plugin {
                     throw error;
                 }
             },
-            // Expose settings for checking in DataviewJS
             getSettings: () => {
                 return {
                     hasSessionId: !!this.settings.sessionId,

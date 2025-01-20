@@ -1,0 +1,10 @@
+{
+    "id": "instagram-feed-viewer",
+    "name": "Instagram Feed Viewer",
+    "version": "1.0.0",
+    "minAppVersion": "0.15.0",
+    "description": "Instagram feed viewer plugin for Obsidian with DataviewJS integration",
+    "author": "nearisfar",
+    "authorUrl": "https://github.com/nearisfar",
+    "isDesktopOnly": false
+}
